@@ -9,9 +9,6 @@
 name: Build OTA
 
 on:
-  push:
-    paths-ignore:
-      - '.github/workflows/debug.yml'
   repository_dispatch:
   workflow_dispatch:
     inputs:
